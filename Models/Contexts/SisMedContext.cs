@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebApplication4.Models.Entities;
 using WebApplication4.Models.EntityConfigurations;
-
+/*testando git*/
 namespace WebApplication4.Models.Contexts
 {
     public class SisMedContext : DbContext
