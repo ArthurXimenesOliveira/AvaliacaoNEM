@@ -4,11 +4,11 @@ using WebApplication4.Models.EntityConfigurations;
 /*testando git*/
 namespace WebApplication4.Models.Contexts
 {
-    public class SisMedContext : DbContext
+    public class SguContext : DbContext
     {
         private readonly IConfiguration _configuration;
 
-        public SisMedContext(IConfiguration configuration)
+        public SguContext(IConfiguration configuration)
         {
             _configuration = configuration;
         }
